@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulier pagina Robbin Lenior</title>
+</head>
+
+<body>	
+<article>
+	<h1>Aanmelden</h1>
+	<section>
+		<p>
+		Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+		Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+		lopen de studenten stage, in het tweede en afstudeerjaar. 
+		</p>
+		<p>
+		<em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</em>
+		</p>
+		<p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+		Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+		Voor vragen of opmerkingen kunt u <a href="http://www.hva.nl/onderwijs/contact"> contact </a> met ons op
+		</p>
+	</section>
+	
+	<section>
+		<form>
+			<fieldset>
+			<legend>Contactgegevens:</legend>
+			<label>Naam:<input type="text" name="naam" placeholder="Uw naam.." autofocus></label>
+			<label>Bedrijf:<input type="text" name="bedrijf" placeholder="Bedrijf.."></label>
+			<label>Adres:<input type="text" name="adres" placeholder="Uw adres.."></label>
+			<label>Postcode:<input type="text" name="postcode" placeholder="1111 AZ" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}"></label>
+			<label>Plaats:<input type="text" name="plaats" placeholder="Plaats.."></label>
+			<label>Telefoonnummer:<input type="tel" name="telefoon" placeholder="Telefoon.."></label>
+			<label>E-mail:<input type="email" name="email" placeholder="hi@domain.nl"></label>
+			</fieldset>
+			
+			<fieldset>
+			<legend>Ik wil mijn aanmelden:</legend>
+			<label><input type="radio" name="aanmelding" value="project"> Voor een project</label>
+			<label><input type="radio" name="aanmelding" value="stage"> Als stagebedrijf</label>
+			</fieldset>
+			
+			<section>
+			<fieldset>
+			<legend> Project </legend>
+			<label>Titel:<input type="text" name="titel" placeholder="Titel"></label>
+			<label>Opdrachtomschrijving:<textarea name="Opdrachtomschrijving" placeholder="Opdrachtomschrijving"></textarea></label>
+			<label>Doelgroepomschrijving:<textarea name="Doelgroepomschrijving" placeholder="Doelgroepomschrijving"></textarea></label>
+			<label>Doelstelling / intentie van het project:<input type="text" name="Doelstelling" placeholder="Doelstelling/ intentie van het project"></label>
+			<label>Looptijd:<input type="number" name="Looptijd" placeholder="Looptijd"></label>
+			<label>Deadline<input type="date" name="Deadline"></label>
+			</fieldset>
+			
+			<fieldset>
+			Geschikt voor:
+			<label><input type="checkbox" name="eerstejaars" value="eerstejaars"> eerstejaars studenten</label> 
+			<label><input type="checkbox" name="tweedejaars" value="tweedejaars"> tweedejaars studenten</label> 
+			<label><input type="checkbox" name="derdejaars" value="derdejaars"> derdejaars studenten</label> 
+			<label><input type="checkbox" name="afstudeer" value="afstudeer"> afstudeer studenten</label> 
+			<label><input type="checkbox" name="onbekend" value="onbekend"> onbekend</label> 
+			</fieldset>
+			
+			<fieldset>
+				<label>Opmerking:<textarea name="Opmerking" placeholder="Opmerking"></textarea></label>
+			</fieldset>
+				
+			</section>
+			
+			<section>
+				<fieldset>
+				<legend>Stage</legend>
+				Geschikt voor:
+				<label><input type="checkbox" name="tweedejaars" value="tweedejaars"> tweedejaars studenten</label>  
+				<label><input type="checkbox" name="afstudeer" value="afstudeer"> afstudeer studenten</label> 
+				<label><input type="checkbox" name="onbekend" value="onbekend"> onbekend</label> 
+				</fieldset>
+				
+				<fieldset>
+				<label>Hoe lang is de stage?
+				<select name="stageduur">
+				  <option value="10weken">10 weken</option>
+				  <option value="20weken">20 weken</option>
+				</select></label>
+				<label> Begin datum <input type="date" name="begindatum"></label>
+				</fieldset>
+				
+				<fieldset>
+				<label>Beschrijving werkzaamheden:<textarea name="werkzaamheden" placeholder="Beschrijving stagewerkzaamheden"></textarea></label>
+				</fieldset>
+				
+				<fieldset>
+				<label>Beschrijving stagebedrijf:<textarea name="stagebedrijf" placeholder="Beschrijving stagebedrijf"></textarea></label>
+				<label>Bedrijfsnaam:<input type="text" name="bedrijfsnaam" placeholder="Bedrijfnaam"></label>
+				<label>Adres:<input type="text" name="adres" placeholder="Adres"></label>
+				<label>Postcode:<input type="text" name="postcode" placeholder="1111 AZ" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}"></label>
+				<label>Plaats:<input type="text" name="plaats" placeholder="Plaats"></label>
+				<label>Sector:<input type="text" name="sector" placeholder="Sector"></label>
+				<label>Core Business:<input type="text" name="corebusiness" placeholder="Core Business"></label>
+				</fieldset>
+				
+				<fieldset>
+				<label>Opmerking:<textarea name="Opmerking" placeholder="Opmerking"></textarea></label>
+				</fieldset>
+			</section>	
+		</form>
+		</section>
+		
+</article>
+</body>
+
+</html>
